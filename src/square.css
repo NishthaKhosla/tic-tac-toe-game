@@ -1,0 +1,21 @@
+.square {
+    border: 1px solid;
+    height: 100px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.winner {
+    animation: pulse 1s infinite alternate;
+}
+
+@keyframes pulse {
+    0% {
+        border-color: transparent;
+    }
+    100% {
+        border-color: red; /* Change to whatever color you want */
+    }
+}
